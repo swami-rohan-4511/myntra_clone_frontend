@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Assistant", sans-serif;
+
+}
+
+body{
+    width: 100%;
+    height: 100vw;
+}
+
+nav{
+    width: 100%;
+    height: 13vh;
+    /* background-color: yellow; */
+}
+nav>article{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+/* nav Section 1 */
+.sec1{
+    width: 57.5%;
+    height: 100%;
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec1>article{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.logo{
+    height: 6vh;
+}
+
+article>section>article>div{
+    font-weight: 500;
+}
+
+
+/* nav Section 2 */
+
+.sec2{
+    width: 27.5%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: rgb(117, 117, 117); */
+   
+}
+.sec2>article{
+    height: 50%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content:end ;
+}
+
+.nav-input{
+    border: none;
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+    background-color: #F5F5F6;
+}
+
+.nav-searchicon{
+   border: none;
+   background: none;
+    font-size: 0.8em;
+    padding: 10px;
+    
+}
+.input{
+    background-color: #F5F5F6;
+    /* border: 1px solid; */
+    border-radius: 5px;
+}
+
+/* nav Section 3 */
+.sec3{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: brown; */
+    font-size: 12px;
+    overflow: auto;
+}
+.nav-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 42%;
+    /* background-color: aqua; */
+    overflow: auto;
+}
+div>p>i{
+    font-size: 16px;
+}
+
+
+/* Main Body */
+
+/* Section 1 Flat 20% off Image */
+
+.main-sec1{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.offer{
+    width: 100%;
+    height: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section 2 Flat 20% off Image */
+
+.main-sec2{
+
+    width: 100%;
+    height: 50vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+     overflow: auto;
+}
+
+.desk-image{
+    height: 50vh;
+}
+.main-sec2::-webkit-scrollbar{
+    display: none;
+}
+h1{
+    font-size: 1.8em;
+    text-indent: 2%;
+    letter-spacing: 3px;font-weight: 700;
+    color: #3E416E;
+    
+}
+.MedalWorthybrands{
+    width: 100%;
+    height: 50vh;
+    /* background-color: blue; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.55%;
+    padding: 5px;
+    overflow: auto;
+}
+.MedalWorthybrandsimages{
+    min-width: 16%;
+    height: 100%;
+
+}
+.MedalWorthybrands::-webkit-scrollbar{
+    display: none;
+}
+.shobycategory{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.shobycategoryimages{
+    width: 16%;
+    
+}
